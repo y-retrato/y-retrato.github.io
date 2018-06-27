@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <title>y? — retrato geracional</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<!--ajuda para menu-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="documentario_2.css"> 
+</head>
+  
+
+<body>
+
+<!-- divs laterais-->
+<div class="w3-theme-border down_bar"></div>
+<div class="w3-theme-border top_bar"></div>
+<div class="w3-theme-border right_bar"></div>
+
+<!-- barra lateral esquerda-->
+<div class="sidenav left_bar">
+    <a href="home.html"><div class="logo"></div></a> <!--logotipo-->
+    <div class="textolateral"><img src="assets/index_page/retratogeracional.png" width="100%" height="100%"></div> <!--retratogeracional-->
+    <div onclick="myFunction1()" class="menu_icon" id="menu_btn"></div><!--botao menu-->
+</div>
+
+
+<!-- barra menu + conteúdo-->
+<div id="Menu" class="menu w3-dropdown-content w3-card-4 w3-animate-bottom">
+<div class="menu_content">
+    <a href="sobre.html" class="text_menu">Sobre o Projeto</a>
+    <a href="documentario.html" class="text_menu">Documentário</a>
+    <a href="serjovem.html" class="text_menu">Ser jovem é...</a>
+    <a href="reflexo.html" class="text_menu">Reflexo</a>
+    <a href="https://www.instagram.com/y.retrato/" class="insta_icon" target="_blank"></a>
+    <a href="mailto:dc.projeto.y@gmail.com" class="mail_icon"></a>
+</div>
+</div>
+
+
+
+
+<!--conteudo da pagina-->
+<div class="main">
+
+<div class="main_title">
+como nos vêem	
+<p class="legenda"> 
+2ª parte <br>
+<span style="font-family: Montserrat-Regular">
+— entrevistas a pessoas de outras gerações
+</span>
+</p>
+</div>
+	
+
+<!-- falta o video -->
+<video controls style="width:800px; margin-bottom:20px;">
+  <source src="http://res.cloudinary.com/dr2axy3lw/video/upload/v1530039107/yretrato/teaser_atualizado.mp4" type="video/mp4">
+</video>
+
+<div class="btns">
+
+<a href="documentario_1.html">	
+<div class="btn_2">1º parte</div>
+</a>	
+
+<a href="documentario_3.html">	
+<div class="btn_1">3º parte</div>
+</a>
+
+	
+</div>
+	
+</div>
+	
+	
+	
+
+
+
+
+
+<!--javascript-->
+<script>
+function myFunction1() {
+    var x = document.getElementById("Menu");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+		document.getElementById("menu_btn").classList.add("active");
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+		document.getElementById("menu_btn").classList.remove("active");
+    }
+}
+</script>
+
+</body>
+</html>
