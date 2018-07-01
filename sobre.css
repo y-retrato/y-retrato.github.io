@@ -358,6 +358,37 @@ body{
 	margin-top: 0px;
 }
 
+.simao{
+	background-image: url(assets/sobre_page/simao.png);
+	width:150px;
+	height: 150px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.ana{
+	background-image: url(assets/sobre_page/ana.png);
+	width:150px;
+	height: 150px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.viana{
+	background-image: url(assets/sobre_page/viana.png);
+	width:150px;
+	height: 150px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.daniel{
+	background-image: url(assets/sobre_page/vintem.png);
+	width:150px;
+	height: 150px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
 
 
 /* Add animation to "page content" */
