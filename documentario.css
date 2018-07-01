@@ -1,4 +1,4 @@
-@font-face { font-family: Montserrat-Regular; src: url('fonts/Montserrat-Regular.ttf'); } 
+@font-face { font-family: Montserrat; src: url('fonts/Montserrat-Regular.ttf'); } 
 @font-face { font-family: Montserrat-SemiBold; src: url('fonts/Montserrat-SemiBold.ttf'); }
 
 a{
@@ -298,7 +298,7 @@ body{
 
 
 .legenda {
-	font-family: 'Montserrat-Regular';
+	font-family: 'Montserrat';
     font-size: 14px;
 	color: #47508D;
 }
